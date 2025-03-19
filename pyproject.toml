@@ -1,0 +1,13 @@
+[project]
+name = "tls-mcp-server"
+version = "0.1.0"
+description = "TLS MCP server project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.4.1",
+    "python-dotenv>=1.0.1",
+    "volcengine>=1.0.175",
+]
+[[project.authors]]
+name = "HeJianing"
